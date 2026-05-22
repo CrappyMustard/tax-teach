@@ -26,7 +26,7 @@ pytest
 
 - When generating code, be sure to keep it in the style of CLI--do not try and apply GUI elements.
 - Always refer back to the original synopsis when creating new code.
-- Avoid anything that could be confidental such as credit card information, addresses, names, etc.
+- Avoid anything that could be confidential such as credit card information, addresses, names, etc.
 
 ## Working with Claude here
 
