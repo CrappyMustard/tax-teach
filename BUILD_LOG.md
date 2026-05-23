@@ -45,3 +45,14 @@ What Claude (Copilot) Proposed: Add an intro message and call the function right
 What I Changed Before Approving: I added in the aforementioned date and formatted it in a neat and simple manner.
 Verification: I ran the code and made sure that the intro message showed properly on-screen alongside the function to display the rest of the program.
 One Thing I Learned: Make it exist first; you'll add the fine details later.
+
+## AI Workflow
+
+Due to the over simplicity of my program in terms of scope, I did not have a large range of tools that I felt compelled to switch between in order to accomplish specific tasks. However, I tried my best to give most of them an equal chance. For the most part, the code was assisted by Copilot, with it giving minor but immensely useful advice on where to direct my code. Claude, as I've stated previously in other modules, was a lot more useful as a back-burner: giving useful code to debug and implement, but not the end-all-be-all of my coding process.
+
+## Reflection
+
+1. It's no secret that AI agents are exceptional at cutting down on overall programming time; the amount of code that can be implemented in a program in a few swift keystrokes is immensely helpful. When it comes to my capstone project, with how short the completion process was, use of Copilot and Claude definitely made progression that much simpler.
+2. In terms of a full-blown override, there weren't a terrible amount of incidents in which I had to completely stop Claude or Copilot in its tracks to prevent sloppily outputted code from injecting itself into my project. For the most part, my input came in the form of taking what Claude or Copilot would describe to me, refining it, and applying it to my program. I would say that, thanks in part to my `CLAUDE.md` file, me and Claude were on the same page, while Copilot needed a little more direction in order to give optimal output.
+3. I chose a project that I knew would be something that everyone would be willing to use--after all, nobody likes accounting for sales tax--and tried my hardest to make it as accessible as possible whilst keeping it in the range of my expertise. Because of this, I decided to make it a CLI-focused program to cut down on complexity and amplify simplicity alongside giving said program an easy-to-use, accessible input process designed for quick use. In the future, I would love to revisit this and other similar ideas and make them slightly more aesthetically pleasing and include more features that expand on my original ideas.
+4. With the workflow I've learned throughout this module, I believe that I'll be able to tackle AI with the mindset of a tool and not a crutch or an end-all-be-all of my programming prowess. Day one, I'll show that I'm willing to apply myself and learn even more than what I've learned here.
