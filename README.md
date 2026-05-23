@@ -1,2 +1,2 @@
-# tax-teach
-Fret about sales tax no more! Use Tax Teach for find out exactly how much you need to pay for something, no matter the state, country, or continent.
+# Tax Teach
+Tax Teach is a CLI-based program designed to help one effortlessly calculate the sales tax of an item or items. Simply select the `Calculate` option on the menu, enter in your prices and sales tax, then observe the final price like clockwork.
