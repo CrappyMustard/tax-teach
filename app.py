@@ -17,13 +17,17 @@ def mainMenu():
             break
     # This is where the calculations happen.
     if selection == "1":
+        totalPrice = 0
         print("----------------")
-        print("Enter the cost of the item in the following format: 00.00")
+        print("Enter the cost of the item in the following format: 00.00 (Enter 0 when done)")
         while True:
             try:
                 price = float(input())
-                price = round(price, 2)
-                break
+                if price == 0:
+                    break
+                else:
+                    price = round(price, 2)
+                    totalPrice += price
             except:
                 print("You entered an invalid price. Try again.")
         print("Enter the sales tax being applied in your area in the following format: 0.00")
@@ -34,7 +38,7 @@ def mainMenu():
                 break
             except:
                 print("You entered an invalid price. Try again.")
-        finalCost = (price * (tax / 100)) + price
+        finalCost = (totalPrice * (tax / 100)) + totalPrice
         finalCost = format(finalCost, '.2f')
         print(f'The final cost of your purchase should be around ${finalCost}.')
         time.sleep(1)
